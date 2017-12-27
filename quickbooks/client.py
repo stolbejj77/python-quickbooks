@@ -32,6 +32,7 @@ class QuickBooks(object):
     current_user_url = "https://appcenter.intuit.com/api/v1/user/current"
     disconnect_url = "https://appcenter.intuit.com/api/v1/connection/disconnect"
     reconnect_url = "https://appcenter.intuit.com/api/v1/connection/reconnect"
+    reconnect_url_oauth2 = "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer"
 
     _BUSINESS_OBJECTS = [
         "Account", "Attachable", "Bill", "BillPayment",
